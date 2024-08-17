@@ -73,15 +73,11 @@ def VisaCc(card, bb):
         tlg = f"""
 card : {card}
 
-
 ♔♔♔♔♔♔ ST〆TAMIM࿐⁹⁹⁹⁺ ♔♔♔♔♔♔
-
 
 info : {bb}
 
-
 ♔♔♔♔♔♔ ST〆TAMIM࿐⁹⁹⁹⁺ ♔♔♔♔♔♔
-
 
         """
         print(F+tlg)
